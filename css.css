@@ -1,0 +1,63 @@
+
+
+body {
+    background: black;
+    color: white;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+#main {
+    position: absolute;
+    left: 30vw;
+    height: 80vh;
+
+}
+}
+p {
+    font-size: 50px;
+}
+button {
+   border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; 
+  position: relative;
+  left: 16vw;
+  box-shadow: 4px 5px grey;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #main {
+        position: absolute;
+        left: 20vw;
+        height: 45vh;
+        width: 58vw;    
+    }
+    #inside {
+        position: inherit;
+        left: 10vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+
